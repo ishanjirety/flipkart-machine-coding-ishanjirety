@@ -1,38 +1,23 @@
+/* Headings (Filter by Title/Order ID)- #212121
+Primary Text Color (Flipkart Support , Order OD121898535971680000) - #000000
+Secondary Text Color (Start typing to search ) - #878787
+ChatList Highlighted background and Single Chat View Background - #f1f3f6
+ChatList  Divider Color- #f0f0f0
+Flipkart Blue - #027CD5
+OptionedMessage Background - #f5f5f5 */
+
+:root {
+  --title-heading: #212121;
+  --primary-text: #000000;
+  --secondary-text: #878787;
+  --single-chat-view-bg: #f1f3f6;
+  --chat-list-divider: #f0f0f0;
+  --flipkart-primary-blue: #027CD5;
+  --optioned-message-bg: #f5f5f5
+}
+
+
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  height: 100vh;
 }

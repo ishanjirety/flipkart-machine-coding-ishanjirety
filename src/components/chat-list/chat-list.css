@@ -1,0 +1,41 @@
+.wrapper {
+    display: flex;
+    border-top: 1px solid var(--chat-list-divider);
+    justify-content: space-between;
+    padding: 8px 8px;
+}
+
+.chat-list {
+    width: 100%;
+    display: flex;
+    column-gap: 12px;
+
+
+    cursor: pointer;
+}
+
+.wrapper:hover {
+    background-color: var(--single-chat-view-bg);
+}
+
+.chat-list img {
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+}
+
+.content-heading h3,
+h4 {
+    margin: 0px;
+    font-weight: 500;
+}
+
+p {
+    margin: 0px
+}

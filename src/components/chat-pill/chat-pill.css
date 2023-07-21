@@ -1,0 +1,51 @@
+.chat-pill-wrapper {
+    display: flex;
+
+}
+
+.chat-pill-wrapper div {
+    padding: 4px 8px;
+    width: max-content;
+    border-radius: 4px;
+}
+
+.timestamp {
+    text-align: right;
+    margin-top: 4px;
+    font-size: 12px;
+}
+
+.option-message {
+    background: #fff;
+}
+
+.option-button {
+    width: 100%;
+    border-top: 1px solid var(--chat-list-divider);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.option-button button {
+    border: none;
+    background: none;
+    color: var(--flipkart-primary-blue);
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.option-button p {
+    font-size: 12px;
+    color: var(--secondary-text);
+}
+
+.option-button-wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
